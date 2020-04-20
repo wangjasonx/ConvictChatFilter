@@ -1,0 +1,10 @@
+# This is what will come after the player when it gets replaced
+# I.E. Tsyrac > hello | Tsyrac : hello
+# Uses Minecraft color codes. The spaces add spaces behind and in-front of it.
+# Use quotations when you are adding things to the right side.
+Chat-Indicator: " &8>&f "
+
+Words:
+  Nigger: "nice person"
+  Nigga: "nice person"
+  Gay: "happy"

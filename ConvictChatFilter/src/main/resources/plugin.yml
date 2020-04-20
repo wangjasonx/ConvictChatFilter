@@ -1,0 +1,21 @@
+name: ConvictChatFilter
+version: ${project.version}
+main: me.tsyrac.convictchatfilter.ConvictChatFilter
+api-version: 1.13
+commands:
+  toggleChatFilter:
+    description: toggle the chat filter on/off
+    usage: /toggleChatFilter
+    aliases: [tcf]
+  reloadChatFilter:
+    description: reload the chat filter plugin
+    usage: /reloadChatFilter
+    aliases: [rcf]
+permissions:
+  toggleChatFilter.use:
+    description: Use the /toggleChatFilter command
+    default: true
+  toggleChatFilter.reload:
+    description: Use the /reloadChatFilter command
+    default: op
+depend: [Vault, Factions]
